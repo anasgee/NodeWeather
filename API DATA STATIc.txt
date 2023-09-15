@@ -1,0 +1,34 @@
+api-->
+http://api.openweathermap.org/data/2.5/weather?q=Lahore&units=metric&appid=bb1953fc4987e6edb5d3841278d0b1b3
+
+
+[
+  {
+    coord: { lon: 74.3436, lat: 31.5497 },
+    weather: [ [Object] ],
+    base: 'stations',
+    main: {
+      temp: 30.99,
+      feels_like: 36.41,
+      temp_min: 30.99,
+      temp_max: 32.06,
+      pressure: 1007,
+      humidity: 66
+    },
+    visibility: 6000,
+    wind: { speed: 3.09, deg: 100 },
+    clouds: { all: 20 },
+    dt: 1694761167,
+    sys: {
+      type: 1,
+      id: 7585,
+      country: 'PK',
+      sunrise: 1694738781,
+      sunset: 1694783403
+    },
+    timezone: 18000,
+    id: 1172451,
+    name: 'Lahore',
+    cod: 200
+  }
+]
